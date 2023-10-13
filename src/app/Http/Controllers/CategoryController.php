@@ -17,7 +17,7 @@ class CategoryController extends Controller
 
     public function store(CategoryRequest $request)
     {
-        $category=$request->only(['category_id', 'name']);
+        $category=$request->only(['name']);
         Category::create($category);
 
         return redirect('/categories')->with('message', 'カテゴリを作成しました');
