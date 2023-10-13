@@ -1,0 +1,155 @@
+.todo_alert--success{
+    padding:10px 30px;
+    border-color:#badbcc;
+    background-color:#d1e7dd;
+    color:#0f5132;
+}
+
+.todo_alert--danger{
+    padding:10px 0;
+    border-color:#f5c2c7;
+    background-color:#f8d7da;
+    color:#842029;
+}
+
+.todo_alert--danger ul{
+    margin:0;
+}
+
+.todo_content{
+    margin:0 auto;
+    padding:30px 15px;
+    max-width:1230px;
+}
+
+.section_title{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.create-form, .search-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 70%;
+    text-align: center;
+}
+
+.create-form_item, .search-form_item{
+    display: flex;
+    width: 70%;
+}
+
+.create-form_item-input, .search-form_item-input{
+    margin-right: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.create-form_item-select, .search-form_item-select{
+    padding: 10px;
+    width: 30%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.create-form_button, .search-form_button{
+    width: 20%;
+}
+
+.create-form_button-submit, .search-form_button-submit{
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.todo-table{
+    margin: 30px auto;
+    width: 70%;
+    text-align: left;
+}
+
+.todo-table_inner{
+    width: 100%;
+}
+
+.todo-table_row{
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-table_header{
+    padding: 12px;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.todo-table_header-span{
+    margin-right: 40%;
+}
+
+.todo-table_item:first-of-type{
+    padding: 12px;
+    width: 90%;
+}
+
+.update-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.update-form_item{
+    width: 40%;
+    line-height: 50%;
+}
+
+.update-form_item-input{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.update-form_item-p{
+    text-align: left;
+    font-size: 13px;
+}
+
+.update-form_button{
+    width: 50px;
+}
+
+.update-form_button-submit{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #0000ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.delete-form_button{
+    width: 50px;
+}
+
+.delete-form_button-submit{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
