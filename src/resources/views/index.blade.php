@@ -71,7 +71,7 @@
             @foreach($todos as $todo)
             <tr class="todo-table_row">
                 <td class="todo-table_item">
-                    <form action="/todos/update" method="post" class="update-form>
+                    <form action="/todos/update" method="POST" class="update-form>
                     @method('PATCH')
                         @csrf
                         <div class="update-form_item">
